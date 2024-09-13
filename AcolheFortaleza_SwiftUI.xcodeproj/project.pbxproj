@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82BD4952C94E5690070989D /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82BD4942C94E5690070989D /* MenuListView.swift */; };
 		D8A329922C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A329912C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift */; };
 		D8A329942C939B3C0034D572 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A329932C939B3C0034D572 /* ContentView.swift */; };
 		D8A329962C939B3C0034D572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A329952C939B3C0034D572 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D82BD4942C94E5690070989D /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
 		D8A3298E2C939B3C0034D572 /* AcolheFortaleza_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcolheFortaleza_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A329912C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcolheFortaleza_SwiftUIApp.swift; sourceTree = "<group>"; };
 		D8A329932C939B3C0034D572 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				D8A329912C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift */,
 				D8A329932C939B3C0034D572 /* ContentView.swift */,
 				D8A3299F2C93ADB60034D572 /* HomeUIView.swift */,
+				D82BD4942C94E5690070989D /* MenuListView.swift */,
 				D8A329952C939B3C0034D572 /* Assets.xcassets */,
 				D8A329972C939B3C0034D572 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8A329942C939B3C0034D572 /* ContentView.swift in Sources */,
+				D82BD4952C94E5690070989D /* MenuListView.swift in Sources */,
 				D8A329922C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift in Sources */,
 				D8A329A02C93ADB60034D572 /* HomeUIView.swift in Sources */,
 			);

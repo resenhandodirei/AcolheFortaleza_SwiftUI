@@ -41,7 +41,7 @@ struct HomeUIView: View {
                         .font(.title3)
                         .foregroundStyle(.yellowPrimary)
                         .fontWeight(.semibold)
-                        .textCase(/*@START_MENU_TOKEN@*/.uppercase/*@END_MENU_TOKEN@*/)
+                        .textCase(.uppercase)
                     
                     ScrollView(.horizontal) {
                         HStack(spacing: 20) {
@@ -60,11 +60,11 @@ struct HomeUIView: View {
                 .padding(.horizontal) // Adiciona padding horizontal para o conteúdo principal
                 
                 VStack(alignment: .leading, spacing: 10) {
-                    Text("serviços")
+                    Text("Serviços")
                         .font(.title3)
                         .fontWeight(.semibold)
                         .foregroundStyle(.yellowPrimary)
-                        .textCase(/*@START_MENU_TOKEN@*/.uppercase/*@END_MENU_TOKEN@*/)
+                        .textCase(.uppercase)
                     
                     ScrollView(.horizontal) {
                         HStack(spacing: 20) {
@@ -84,11 +84,11 @@ struct HomeUIView: View {
                 .padding(.horizontal) // Adiciona padding horizontal para o conteúdo principal
                 
                 VStack(alignment: .leading, spacing: 10) {
-                    Text("com o que podemos te ajudar?")
+                    Text("Com o que podemos te ajudar?")
                         .font(.title3)
                         .fontWeight(.semibold)
                         .foregroundStyle(.yellowPrimary)
-                        .textCase(/*@START_MENU_TOKEN@*/.uppercase/*@END_MENU_TOKEN@*/)
+                        .textCase(.uppercase)
                     
                     ScrollView(.horizontal) {
                         HStack(spacing: 20) {
@@ -108,11 +108,11 @@ struct HomeUIView: View {
                 .padding(.horizontal) // Adiciona padding horizontal para o conteúdo principal
                 
                 VStack(alignment: .leading, spacing: 10) {
-                    Text("perto de você")
+                    Text("Perto de você")
                         .font(.title3)
                         .fontWeight(.semibold)
                         .foregroundStyle(.yellowPrimary)
-                        .textCase(/*@START_MENU_TOKEN@*/.uppercase/*@END_MENU_TOKEN@*/)
+                        .textCase(.uppercase)
                     
                     ScrollView(.horizontal) {
                         HStack(spacing: 20) {
@@ -130,13 +130,31 @@ struct HomeUIView: View {
                 }
                 .padding(.top, 15)
                 .padding(.horizontal) // Adiciona padding horizontal para o conteúdo principal
+                
+                
             }
             .padding(.top, 10) // Ajusta o padding superior para garantir que o conteúdo não fique oculto atrás do cabeçalho
+            
+            
         }
         .edgesIgnoringSafeArea(.top) // Ignora a área segura no topo para que o cabeçalho fique no topo da tela
+        // Rodapé
+        GeometryReader { geometry in
+            VStack {
+                Text("Siga a Prefeitura de Fortaleza nas redes sociais")
+                    .font(.footnote)
+                    .foregroundColor(.white)
+            }
+            .padding(.top, 20) // Adiciona padding superior para o rodapé
+            .frame(width: geometry.size.width, height: 50) // Garante que o rodapé ocupe a largura completa
+            .background(Color.yellowPrimary) // Fundo amarelo para o rodapé
+        }
+        .frame(height: 50) // Ajusta a altura do rodapé
+    
     }
 }
 
 #Preview {
     HomeUIView()
 }
+
