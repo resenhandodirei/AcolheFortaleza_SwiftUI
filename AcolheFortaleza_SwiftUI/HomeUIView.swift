@@ -22,7 +22,7 @@ struct HomeUIView: View {
                         .textCase(.uppercase)
                         .font(.system(size: 24, weight: .semibold, design: .serif))
                         .foregroundColor(.yellowPrimary)
-                }
+                }.padding(.top, 48)
                 
                 Spacer()
                 
@@ -138,12 +138,53 @@ struct HomeUIView: View {
             
         }
         .edgesIgnoringSafeArea(.top) // Ignora a área segura no topo para que o cabeçalho fique no topo da tela
+        
+        
+        
         // Rodapé
         GeometryReader { geometry in
             VStack {
                 Text("Siga a Prefeitura de Fortaleza nas redes sociais")
                     .font(.footnote)
                     .foregroundColor(.white)
+                
+                HStack {
+                    Image("twitter")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 24, height: 24) // Tamanho uniforme
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 8)
+                    
+                    Image("facebook")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 24, height: 24)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 8)
+                    
+                    Image("tiktok")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 24, height: 24)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 8)
+                    
+                    Image("instagram")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 24, height: 24)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 8)
+                    
+                    Image("linkedin")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 24, height: 24)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 8)
+                }
+
             }
             .padding(.top, 20) // Adiciona padding superior para o rodapé
             .frame(width: geometry.size.width, height: 50) // Garante que o rodapé ocupe a largura completa

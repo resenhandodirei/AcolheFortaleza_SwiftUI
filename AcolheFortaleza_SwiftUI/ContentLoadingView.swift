@@ -1,22 +1,22 @@
 //
-//  ContentView.swift
+//  ContentLoadingView.swift
 //  AcolheFortaleza_SwiftUI
 //
-//  Created by Larissa Martins Correa on 12/09/24.
+//  Created by Larissa Martins Correa on 30/10/24.
 //
+
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentLoadingView: View {
+    @State private var isLoading: Bool = true
     @State private var rotation: Double = 0
 
     var body: some View {
         ZStack {
-            LinearGradient(
-                gradient: Gradient(colors: [Color.yellowSecondary, Color.yellowPrimary.opacity(9.0)]),
-                startPoint: .top,
-                endPoint: .bottom
-            ).edgesIgnoringSafeArea(.all)
+            // Fundo amarelo que preenche toda a tela
+            Color.yellowPrimary
+                .edgesIgnoringSafeArea(.all)
 
             VStack {
                 // O texto centralizado
@@ -28,8 +28,8 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .font(.title3)
                     Text("Acolhe")
-                        .font(.system(size: 48, weight: .bold, design: .serif)) // Fonte aumentada
-                        .minimumScaleFactor(0.4) // Permite que a fonte seja reduzida se necessário
+                        .font(.system(size: 48, weight: .bold, design: .serif))
+                        .minimumScaleFactor(0.4)
                         .fontDesign(.serif)
                         .fontWeight(.bold)
                         .font(.title)
@@ -42,7 +42,6 @@ struct ContentView: View {
                         .padding(.bottom, 80)
                         .foregroundColor(.white)
                         .font(.title3)
-            
                     
                     Text("Acessar")
                         .frame(width: 150, height: 50)
@@ -50,31 +49,46 @@ struct ContentView: View {
                         .cornerRadius(150)
                         .foregroundColor(.yellowSecondary)
                         .fontWeight(.semibold)
-                        .textCase(/*@START_MENU_TOKEN@*/.uppercase/*@END_MENU_TOKEN@*/)
+                        .textCase(.uppercase)
                         .padding(.top, 40)
-
-
                 }
                 .padding()
                 .background(Color.clear)
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                 
-
-                
                 Spacer() // Para empurrar a logo para baixo
-
-                // Imagem da logo
+                
+                // Bolinha de loading com transição de opacidade
+                if isLoading {
+                    Circle()
+                        .stroke(Color.white, lineWidth: 4)
+                        .frame(width: 30, height: 30)
+                        .rotationEffect(.degrees(rotation))
+                        .onAppear {
+                            withAnimation(Animation.linear(duration: 1).repeatForever(autoreverses: false)) {
+                                rotation = 360
+                            }
+                        }
+                        .padding(.bottom, 20)
+                        .transition(.opacity) // Adiciona uma transição suave
+                }
+                
+                // Logo da Prefeitura
                 Image(.logoPref)
-                    .padding(.bottom, 20) // Adiciona algum espaçamento na parte inferior da tela
+                    .padding(.bottom, 20) // Espaçamento na parte inferior da tela
             }
-            
-            
+        }
+        .onAppear {
+            // Simula o tempo de carregamento
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                withAnimation {
+                    isLoading = false
+                }
+            }
         }
     }
 }
 
-
-
 #Preview {
-    ContentView()
+    ContentLoadingView()
 }
