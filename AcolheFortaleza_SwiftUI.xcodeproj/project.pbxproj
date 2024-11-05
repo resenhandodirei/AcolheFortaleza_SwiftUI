@@ -3,59 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D812F9E12CD5821B002D315D /* MaterialInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D812F9E02CD5821B002D315D /* MaterialInfoView.swift */; };
-		D812F9E32CD583A1002D315D /* AgendamentosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D812F9E22CD583A1002D315D /* AgendamentosView.swift */; };
-		D812F9E52CD589FD002D315D /* NewssView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D812F9E42CD589FD002D315D /* NewssView.swift */; };
-		D812F9E72CD58A52002D315D /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D812F9E62CD58A52002D315D /* NewsView.swift */; };
-		D812F9E92CD59448002D315D /* AgendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D812F9E82CD59448002D315D /* AgendarView.swift */; };
-		D821B47F2CD43CC000CC9287 /* ContentHomeLoginEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821B47E2CD43CBF00CC9287 /* ContentHomeLoginEmailView.swift */; };
-		D821B4812CD44B9D00CC9287 /* NewsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821B4802CD44B9D00CC9287 /* NewsPageView.swift */; };
-		D82BD4952C94E5690070989D /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82BD4942C94E5690070989D /* MenuListView.swift */; };
-		D82BD4972C94F8B00070989D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82BD4962C94F8B00070989D /* SettingsView.swift */; };
-		D876B2492CD2D5FD00CD44CC /* ContentLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876B2482CD2D5FD00CD44CC /* ContentLoadingView.swift */; };
-		D876B24B2CD2D6EF00CD44CC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876B24A2CD2D6EF00CD44CC /* RegisterView.swift */; };
-		D876B24D2CD2E05900CD44CC /* ContentHomeLoginsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876B24C2CD2E05900CD44CC /* ContentHomeLoginsView.swift */; };
-		D876B24F2CD2F20F00CD44CC /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876B24E2CD2F20F00CD44CC /* HelpView.swift */; };
-		D876B2512CD2F23400CD44CC /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876B2502CD2F23400CD44CC /* ContactView.swift */; };
+		D841DC1D2CDAC0D30048A55E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D841DC1C2CDAC0D30048A55E /* NotificationsView.swift */; };
 		D8A329922C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A329912C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift */; };
-		D8A329942C939B3C0034D572 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A329932C939B3C0034D572 /* ContentView.swift */; };
 		D8A329962C939B3C0034D572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A329952C939B3C0034D572 /* Assets.xcassets */; };
 		D8A329992C939B3C0034D572 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A329982C939B3C0034D572 /* Preview Assets.xcassets */; };
-		D8A329A02C93ADB60034D572 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A3299F2C93ADB60034D572 /* HomeUIView.swift */; };
 		D8B22A0E2CD0423900CF54D7 /* Navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B22A0D2CD0423900CF54D7 /* Navbar.swift */; };
-		D8EE76922CD1AED200D4D5F0 /* ServiceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE76912CD1AED200D4D5F0 /* ServiceListView.swift */; };
-		D8EE76942CD1AEEC00D4D5F0 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE76932CD1AEEC00D4D5F0 /* ServiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D812F9E02CD5821B002D315D /* MaterialInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialInfoView.swift; sourceTree = "<group>"; };
-		D812F9E22CD583A1002D315D /* AgendamentosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendamentosView.swift; sourceTree = "<group>"; };
-		D812F9E42CD589FD002D315D /* NewssView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewssView.swift; sourceTree = "<group>"; };
-		D812F9E62CD58A52002D315D /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
-		D812F9E82CD59448002D315D /* AgendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendarView.swift; sourceTree = "<group>"; };
-		D821B47E2CD43CBF00CC9287 /* ContentHomeLoginEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHomeLoginEmailView.swift; sourceTree = "<group>"; };
-		D821B4802CD44B9D00CC9287 /* NewsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageView.swift; sourceTree = "<group>"; };
-		D82BD4942C94E5690070989D /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
-		D82BD4962C94F8B00070989D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		D876B2482CD2D5FD00CD44CC /* ContentLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLoadingView.swift; sourceTree = "<group>"; };
-		D876B24A2CD2D6EF00CD44CC /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		D876B24C2CD2E05900CD44CC /* ContentHomeLoginsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHomeLoginsView.swift; sourceTree = "<group>"; };
-		D876B24E2CD2F20F00CD44CC /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
-		D876B2502CD2F23400CD44CC /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		D841DC1C2CDAC0D30048A55E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		D8A3298E2C939B3C0034D572 /* AcolheFortaleza_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcolheFortaleza_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A329912C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcolheFortaleza_SwiftUIApp.swift; sourceTree = "<group>"; };
-		D8A329932C939B3C0034D572 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8A329952C939B3C0034D572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8A329982C939B3C0034D572 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D8A3299F2C93ADB60034D572 /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
 		D8B22A0D2CD0423900CF54D7 /* Navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar.swift; sourceTree = "<group>"; };
-		D8EE76912CD1AED200D4D5F0 /* ServiceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListView.swift; sourceTree = "<group>"; };
-		D8EE76932CD1AEEC00D4D5F0 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D841DC2A2CDACB710048A55E /* Settings */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Settings; sourceTree = "<group>"; };
+		D841DC2B2CDACB8B0048A55E /* Home */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Home; sourceTree = "<group>"; };
+		D841DC2E2CDACC6F0048A55E /* Main */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Main; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D8A3298B2C939B3C0034D572 /* Frameworks */ = {
@@ -89,24 +61,10 @@
 			children = (
 				D8B22A0C2CD0421700CF54D7 /* components */,
 				D8A329912C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift */,
-				D821B4802CD44B9D00CC9287 /* NewsPageView.swift */,
-				D876B24A2CD2D6EF00CD44CC /* RegisterView.swift */,
-				D812F9E02CD5821B002D315D /* MaterialInfoView.swift */,
-				D812F9E22CD583A1002D315D /* AgendamentosView.swift */,
-				D876B24E2CD2F20F00CD44CC /* HelpView.swift */,
-				D876B2502CD2F23400CD44CC /* ContactView.swift */,
-				D812F9E82CD59448002D315D /* AgendarView.swift */,
-				D812F9E42CD589FD002D315D /* NewssView.swift */,
-				D812F9E62CD58A52002D315D /* NewsView.swift */,
-				D876B24C2CD2E05900CD44CC /* ContentHomeLoginsView.swift */,
-				D821B47E2CD43CBF00CC9287 /* ContentHomeLoginEmailView.swift */,
-				D8EE76912CD1AED200D4D5F0 /* ServiceListView.swift */,
-				D8A329932C939B3C0034D572 /* ContentView.swift */,
-				D876B2482CD2D5FD00CD44CC /* ContentLoadingView.swift */,
-				D82BD4962C94F8B00070989D /* SettingsView.swift */,
-				D8A3299F2C93ADB60034D572 /* HomeUIView.swift */,
-				D8EE76932CD1AEEC00D4D5F0 /* ServiceView.swift */,
-				D82BD4942C94E5690070989D /* MenuListView.swift */,
+				D841DC1C2CDAC0D30048A55E /* NotificationsView.swift */,
+				D841DC2B2CDACB8B0048A55E /* Home */,
+				D841DC2A2CDACB710048A55E /* Settings */,
+				D841DC2E2CDACC6F0048A55E /* Main */,
 				D8A329952C939B3C0034D572 /* Assets.xcassets */,
 				D8A329972C939B3C0034D572 /* Preview Content */,
 			);
@@ -143,6 +101,11 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D841DC2A2CDACB710048A55E /* Settings */,
+				D841DC2B2CDACB8B0048A55E /* Home */,
+				D841DC2E2CDACC6F0048A55E /* Main */,
 			);
 			name = AcolheFortaleza_SwiftUI;
 			productName = AcolheFortaleza_SwiftUI;
@@ -199,26 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D876B24B2CD2D6EF00CD44CC /* RegisterView.swift in Sources */,
-				D876B24F2CD2F20F00CD44CC /* HelpView.swift in Sources */,
-				D821B4812CD44B9D00CC9287 /* NewsPageView.swift in Sources */,
-				D82BD4972C94F8B00070989D /* SettingsView.swift in Sources */,
-				D8A329942C939B3C0034D572 /* ContentView.swift in Sources */,
-				D812F9E92CD59448002D315D /* AgendarView.swift in Sources */,
-				D82BD4952C94E5690070989D /* MenuListView.swift in Sources */,
 				D8B22A0E2CD0423900CF54D7 /* Navbar.swift in Sources */,
-				D821B47F2CD43CC000CC9287 /* ContentHomeLoginEmailView.swift in Sources */,
-				D812F9E72CD58A52002D315D /* NewsView.swift in Sources */,
 				D8A329922C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift in Sources */,
-				D8A329A02C93ADB60034D572 /* HomeUIView.swift in Sources */,
-				D876B2492CD2D5FD00CD44CC /* ContentLoadingView.swift in Sources */,
-				D812F9E52CD589FD002D315D /* NewssView.swift in Sources */,
-				D876B24D2CD2E05900CD44CC /* ContentHomeLoginsView.swift in Sources */,
-				D876B2512CD2F23400CD44CC /* ContactView.swift in Sources */,
-				D812F9E32CD583A1002D315D /* AgendamentosView.swift in Sources */,
-				D812F9E12CD5821B002D315D /* MaterialInfoView.swift in Sources */,
-				D8EE76942CD1AEEC00D4D5F0 /* ServiceView.swift in Sources */,
-				D8EE76922CD1AED200D4D5F0 /* ServiceListView.swift in Sources */,
+				D841DC1D2CDAC0D30048A55E /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,10 +25,12 @@ struct RegisterView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack(alignment: .center) {
-                Image(systemName: "chevron.backward")
-                    .resizable()
-                    .frame(width: 24, height: 32)
-                    .foregroundColor(.yellowSecondary)
+                NavigationLink(destination: ContentHomeLoginsView()) {
+                    Image(systemName: "chevron.backward")
+                        .resizable()
+                        .frame(width: 24, height: 32)
+                        .foregroundColor(.yellowSecondary)
+                }
                 
                 Spacer()
                 
@@ -130,14 +132,16 @@ struct RegisterView: View {
                 HStack {
                     Spacer()
                     
-                    Text("Registrar")
-                        .font(.title2)
-                        .fontWeight(.semibold)
-                        .frame(width: 200, height: 50)
-                        .background(Color.yellowSecondary)
-                        .foregroundColor(.white)
-                        .cornerRadius(8.0)
-                        .padding(.top, 20)
+                    NavigationLink(destination: HomeUIView()) {
+                        Text("Registrar")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .frame(width: 200, height: 50)
+                            .background(Color.yellowSecondary)
+                            .foregroundColor(.white)
+                            .cornerRadius(8.0)
+                            .padding(.top, 20)
+                    }
                     
                     Spacer()
                 }

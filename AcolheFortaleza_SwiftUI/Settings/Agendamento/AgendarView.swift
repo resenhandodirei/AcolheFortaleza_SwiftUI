@@ -95,16 +95,18 @@ struct AgendarView: View {
                 }
                 
                 // Botão de agendar
-                Button(action: {
-                    agendar()
-                }) {
-                    Text("Agendar")
-                        .font(.headline)
-                        .frame(maxWidth: .infinity)
-                        .padding()
-                        .background(Color.yellowSecondary)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
+                NavigationLink(destination: AgendamentosView()) {
+                    Button(action: {
+                        agendar()
+                    }) {
+                        Text("Agendar")
+                            .font(.headline)
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.yellowSecondary)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
                 }
                 .padding()
             }
