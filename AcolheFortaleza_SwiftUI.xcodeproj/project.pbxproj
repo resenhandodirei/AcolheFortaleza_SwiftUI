@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81D109A2CDC29E400CDF1D2 /* BreadcrumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81D10992CDC29E400CDF1D2 /* BreadcrumbView.swift */; };
+		D81D109C2CDC2F8000CDF1D2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81D109B2CDC2F8000CDF1D2 /* HeaderView.swift */; };
+		D81D109E2CDC3C5F00CDF1D2 /* ServiceCategorySection.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81D109D2CDC3C5D00CDF1D2 /* ServiceCategorySection.swift.swift */; };
 		D841DC1D2CDAC0D30048A55E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D841DC1C2CDAC0D30048A55E /* NotificationsView.swift */; };
+		D841DC362CDAE2330048A55E /* FieldsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D841DC352CDAE2330048A55E /* FieldsetView.swift */; };
+		D841DC382CDAE3880048A55E /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D841DC372CDAE3880048A55E /* BoxView.swift */; };
 		D8A329922C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A329912C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift */; };
 		D8A329962C939B3C0034D572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A329952C939B3C0034D572 /* Assets.xcassets */; };
 		D8A329992C939B3C0034D572 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A329982C939B3C0034D572 /* Preview Assets.xcassets */; };
@@ -15,7 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D81D10992CDC29E400CDF1D2 /* BreadcrumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadcrumbView.swift; sourceTree = "<group>"; };
+		D81D109B2CDC2F8000CDF1D2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D81D109D2CDC3C5D00CDF1D2 /* ServiceCategorySection.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCategorySection.swift.swift; sourceTree = "<group>"; };
 		D841DC1C2CDAC0D30048A55E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		D841DC352CDAE2330048A55E /* FieldsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldsetView.swift; sourceTree = "<group>"; };
+		D841DC372CDAE3880048A55E /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
 		D8A3298E2C939B3C0034D572 /* AcolheFortaleza_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcolheFortaleza_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A329912C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcolheFortaleza_SwiftUIApp.swift; sourceTree = "<group>"; };
 		D8A329952C939B3C0034D572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,7 +92,12 @@
 		D8B22A0C2CD0421700CF54D7 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				D81D109D2CDC3C5D00CDF1D2 /* ServiceCategorySection.swift.swift */,
 				D8B22A0D2CD0423900CF54D7 /* Navbar.swift */,
+				D81D109B2CDC2F8000CDF1D2 /* HeaderView.swift */,
+				D841DC352CDAE2330048A55E /* FieldsetView.swift */,
+				D81D10992CDC29E400CDF1D2 /* BreadcrumbView.swift */,
+				D841DC372CDAE3880048A55E /* BoxView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -162,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81D109E2CDC3C5F00CDF1D2 /* ServiceCategorySection.swift.swift in Sources */,
+				D81D109A2CDC29E400CDF1D2 /* BreadcrumbView.swift in Sources */,
+				D81D109C2CDC2F8000CDF1D2 /* HeaderView.swift in Sources */,
 				D8B22A0E2CD0423900CF54D7 /* Navbar.swift in Sources */,
 				D8A329922C939B3C0034D572 /* AcolheFortaleza_SwiftUIApp.swift in Sources */,
 				D841DC1D2CDAC0D30048A55E /* NotificationsView.swift in Sources */,
+				D841DC362CDAE2330048A55E /* FieldsetView.swift in Sources */,
+				D841DC382CDAE3880048A55E /* BoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

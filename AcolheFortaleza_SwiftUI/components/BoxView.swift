@@ -1,18 +1,18 @@
 //
-//  ServiceView.swift
+//  BoxView.swift
 //  AcolheFortaleza_SwiftUI
 //
-//  Created by Larissa Martins Correa on 29/10/24.
+//  Created by Larissa Martins Correa on 05/11/24.
 //
 
 import SwiftUI
 
-struct ServiceView: View {
+struct BoxView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ServiceView()
+    BoxView()
 }
